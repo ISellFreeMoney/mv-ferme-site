@@ -1,0 +1,89 @@
+:root{
+    --main-color: #244f44;
+    --main-contrast: #caf0e7;
+    --white: #eaf4f2 ;
+}
+@font-face {
+    font-family: Leiko;
+    src: url(Leiko-Regular.otf);
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height:200px;
+    margin: 0;
+    background-color: var(--main-color);
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+header p{
+    text-align: left;
+    padding: 0.5em;
+    color: var(--main-contrast);
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(202,240,231,0), rgba(202,240,231,0.75), rgba(202,240,231,0));
+}
+
+.header-content{
+    display: flex;
+    height: 75%;
+}
+
+.header-left{
+    width: 75%;
+}
+
+.header-left h1{
+    width: 50%;
+    text-justify: auto;
+    text-align: center;
+    color: var(--white);
+}
+
+.header-right{
+    bottom: 0;
+    height: 100%;
+}
+
+.header-right a {
+    position: relative;
+    top: 75px;
+}
+
+
+.header-right button {
+    border: none;
+    color: var(--main-color);
+    background-color: var(--main-contrast);
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 0.5em;
+    cursor: pointer;
+    
+}
+
+.header-right button:before{
+    content: url(./res/arrow-right-svgrepo-com.svg);
+    width: 15px;
+    float: right;
+    margin-left: 5px;
+    margin-top: -3px;
+}
