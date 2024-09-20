@@ -2,6 +2,7 @@
     --main-color: #244f44;
     --main-contrast: #caf0e7;
     --white: #eaf4f2 ;
+    --second-main: #313956;
 }
 @font-face {
     font-family: Leiko;
@@ -94,4 +95,41 @@ hr{
     margin: 0;
     text-align: center;
     background-color: var(--main-color);
+}
+
+.first-content {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: var(--white);
+}
+
+.first-content h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Leiko;
+    color: var(--second-main);
+}
+
+.first-table {
+    display: flex;
+
+}
+
+.first-table .item{
+    width: 33.3%;
+}
+
+.first-table .item h3{
+    font-size: 15px;
+    font-family: Roboto;
+    color: var(--second-main);
+
+}
+
+.first-table .item p{
+    font-family: Roboto;
+    font-size: 10px;
+    color: var(--second-main);
+    visibility: 90%;
 }
