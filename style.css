@@ -44,7 +44,8 @@ hr{
 
 .header-content{
     display: flex;
-    height: 75%;
+    height: 250px;
+    background-color: var(--main-color);
 }
 
 .header-left{
@@ -88,6 +89,9 @@ hr{
     margin-top: -3px;
 }
 
-header video{
-    align-items: center;
+.header-video{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: var(--main-color);
 }
