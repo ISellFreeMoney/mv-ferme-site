@@ -87,3 +87,7 @@ hr{
     margin-left: 5px;
     margin-top: -3px;
 }
+
+header video{
+    align-items: center;
+}
