@@ -3,6 +3,7 @@
     --main-contrast: #caf0e7;
     --white: #eaf4f2 ;
     --second-main: #313956;
+    --second-soft: #b1c6c9;
 }
 @font-face {
     font-family: Leiko;
@@ -11,6 +12,10 @@
 html{
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 body{
@@ -132,4 +137,129 @@ hr{
     font-size: 10px;
     color: var(--second-main);
     visibility: 90%;
+}
+
+.content-browse {
+    padding: 0;
+    margin-top: -50px;
+    height: 750px;
+    background-color: var(--white);
+}
+
+.content-browse h2{
+    font-family: Leiko;
+    font-size: 50px;
+    color: var(--second-main);
+    text-align: center;
+}
+
+.avis {
+    height: 300px;
+    padding: 100px;
+    padding-left: 30%;
+    background-color: var(--main-contrast);
+    font-size: 40px;
+    font-family: Roboto;
+    color: var(--second-main);
+}
+
+.avis p{
+    height: 50%;
+    text-justify: distribute;
+}
+
+.avis button:before{
+    content: url(./res/arrow-right-svgrepo-com.svg);
+    width: 15px;
+    float: right;
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+.avis button {
+    border: solid 1px var(--second-soft);
+    color: var(--second-main);
+    background-color: var(--main-contrast);
+    padding: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.farmer-button{
+    float: left;
+    margin-top: 50px;
+}
+
+
+.shopping-process{
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 0;
+    margin-top: -55px;
+    height: 500px;
+}
+
+.shopping-process h2 {
+    padding-top: 50px;
+    padding-left: 30%;
+    color: #fff;
+    font-family: Leiko;
+    font-size: 50px;
+    width: 40%;
+}
+
+.second-table {
+    display: flex;
+    padding-left: 20%;
+    
+}
+
+.second-table .item{
+    width: 20%;
+    text-justify: auto;
+    padding-right: 5%;
+}
+
+.second-table .item h3{
+    font-size: 15px;
+    font-family: Roboto;
+    color: var(--main-contrast);
+
+}
+
+.second-table .item p{
+    font-family: Roboto;
+    font-size: 20px;
+    color: #fff;
+    visibility: 90%;
+}
+
+footer{
+    width: 100%;
+    height: 1000px;
+    background-color: var(--main-contrast);
+    color: var(--second-main );
+}
+
+.footer-content{
+    display: flex;
+}
+
+.footer-left {
+    width: 30%;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer-list-item{
+    display: flex;
+    flex-direction: column;
 }
